@@ -24,9 +24,14 @@ function App() {
     <div className="app">
       <div className="chat-container">
         <header className="chat-header">
-          <h1>🤖 Chatbot IA</h1>
-          <button 
-            onClick={clearChat} 
+          <img
+            src="/public/img/selfprinting-logo-1571911220.png" 
+            className='logo'
+            alt="selfprinting logo"
+          />
+          <h1>Departamento de Incidencias</h1>
+          <button
+            onClick={clearChat}
             className="clear-button"
             disabled={isStreaming}
           >

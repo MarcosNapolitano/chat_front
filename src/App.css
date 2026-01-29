@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --main-background-1: #979797;
+  --main-background-2: #f65298;
 }
 
 body {
@@ -14,11 +16,15 @@ body {
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--main-background-1) 0%, var(--main-background-2) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
+}
+
+.logo{
+  width: 20%;
 }
 
 .chat-container {
@@ -34,7 +40,7 @@ body {
 }
 
 .chat-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #333;
   color: white;
   padding: 20px;
   display: flex;
