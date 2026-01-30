@@ -25,7 +25,7 @@ function App() {
       <div className="chat-container">
         <header className="chat-header">
           <img
-            src="/public/img/selfprinting-logo-1571911220.png" 
+            src="/img/selfprinting-logo-1571911220.png" 
             className='logo'
             alt="selfprinting logo"
           />
